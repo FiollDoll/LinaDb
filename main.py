@@ -56,4 +56,4 @@ def replacer(worder):
     word = worder.replace("!", "")
     word = worder.replace(",", "")
 
-bot.polling()
+bot.polling(none_stop = True)
